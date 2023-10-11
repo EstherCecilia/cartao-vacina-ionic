@@ -1,0 +1,55 @@
+.header-home {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding: 30px;
+  background: rgb(63, 202, 130);
+  background: linear-gradient(
+    180deg,
+    rgba(63, 202, 130, 1) 15%,
+    rgba(70, 200, 139, 1) 44%,
+    rgba(68, 201, 136, 1) 68%,
+    rgba(67, 156, 206, 1) 91%
+  );
+}
+
+.ion-content-home {
+  --ion-background-color: #fafafa !important;
+}
+
+
+
+.text-menu{
+    color: #000 !important;
+    font-family: Comfortaa;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.logo-home {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card-home {  
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 35px;
+  width: 70px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #60c3af;
+  margin: 15px 21px;
+}

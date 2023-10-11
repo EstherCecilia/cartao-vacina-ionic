@@ -1,38 +1,44 @@
-/* Exemplo de estilos CSS em Home.css */
-
-/* Estilo para centralizar a logo */
 .centered-logo {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  /* Estilo para os botões */
-  .login-button {
-    background-color: #0074c4; /* Cor de fundo do botão de login */
-    color: #ffffff; /* Cor do texto do botão de login */
-    margin-bottom: 20px;
-    border-radius: 25px;
-  }
-  
-  .register-button {
-    background-color: #34a853; /* Cor de fundo do botão de cadastro */
-    color: #ffffff; /* Cor do texto do botão de cadastro */
-    margin-bottom: 20px;
-    border-radius: 25px;
-  }
-  
-  /* Estilo para o conteúdo centralizado */
-  .ion-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-color: #0074c4;
-  }
-  
-  #background-content{
-    background-color: #28ba62 !important;
-  }
+  height: auto;
+  display: block;
+  max-width: 70px;
+}
+
+.login-button {
+  color: black !important;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  margin: 2px 70px;
+  border: 1px solid #202120;
+}
+
+.ion-content {
+  --ion-color-primary: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.list-ios {
+  padding: 100px 30px;
+}
+
+.ios{
+  color: #ffffff;
+}
+
+
+.header-login{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 40px 0;
+  font-size: 22px;
+}
+
+.spinner-circular{
+  color: #202120 !important;
+}

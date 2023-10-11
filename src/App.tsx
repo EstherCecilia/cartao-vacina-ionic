@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Initial from "./pages/initial/Initial";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import './App.css'
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -28,7 +29,7 @@ import "./theme/variables.css";
 setupIonicReact();
 
 const App: React.FC = () => (
-  <IonApp>
+  <IonApp className="app-page">
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/home">

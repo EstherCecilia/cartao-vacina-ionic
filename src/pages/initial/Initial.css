@@ -1,30 +1,25 @@
-/* Exemplo de estilos CSS em Home.css */
-
-/* Estilo para centralizar a logo */
-.centered-logo {
+.centered-logo-initial {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
-    width: 220px;
+    display: block;    
+    margin: 144px auto;
+    width: 300px;
   }
   
-  /* Estilo para os botões */
-  .login-button {
-    background-color: #0074c4; /* Cor de fundo do botão de login */
-    color: #ffffff; /* Cor do texto do botão de login */
+  .login-button-initial {
+    background-color: #0074c4; 
+    color: black !important; 
     margin-bottom: 20px;
     border-radius: 25px;
   }
   
-  .register-button {
-    background-color: #34a853; /* Cor de fundo do botão de cadastro */
-    color: #ffffff; /* Cor do texto do botão de cadastro */
+  .register-button-initial {
+    background-color: #34a853; 
+    color: black !important; 
     margin-bottom: 20px;
     border-radius: 25px;
   }
   
-  /* Estilo para o conteúdo centralizado */
   .ion-content {
     display: flex;
     flex-direction: column;
@@ -34,6 +29,3 @@
     background-color: #0074c4;
   }
   
-  #background-content{
-    background-color: #28ba62 !important;
-  }

@@ -6,10 +6,16 @@ import {
   IonImg,
   IonRow,
   IonCol,
+  useIonRouter
 } from "@ionic/react";
 import "./Initial.css";
 
 const Initial: React.FC = () => {
+  const router = useIonRouter();
+  const goToPage = (url:string) => {
+    router.push(url, 'root', 'replace');
+  };
+
   return (
     <IonPage>
       <IonContent className="ion-content">
@@ -18,18 +24,18 @@ const Initial: React.FC = () => {
             <IonImg
               src="src/assets/logos/vacina.svg"
               alt="Logo"
-              className="centered-logo"
+              className="centered-logo-initial"
             />
           </IonCol>
         </IonRow>
         <IonRow className="ion-justify-content-center">
           <IonCol size="auto">
-            <IonButton expand="full" shape="round" className="login-button">
+            <IonButton expand="full" shape="round" className="login-button-initial" onClick={()=> goToPage('/login')}>
               Logar
             </IonButton>
           </IonCol>
           <IonCol size="auto">
-            <IonButton expand="full" shape="round" className="register-button">
+            <IonButton expand="full" shape="round" className="register-button-initial"  onClick={()=> goToPage('/register')}>
               Cadastrar
             </IonButton>
           </IonCol>
