@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Initial from "./pages/initial/Initial";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Menu from "./pages/menu/Menu";
 import './App.css'
 
 /* Core CSS required for Ionic components to work properly */
@@ -33,7 +34,8 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/home">
-          <Home />
+          {/* <Home /> */}
+          <Menu />
         </Route>
 
         <Route exact path="/login">

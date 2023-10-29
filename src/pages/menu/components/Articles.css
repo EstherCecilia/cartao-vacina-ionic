@@ -1,0 +1,11 @@
+* {
+    color: black;
+}
+
+.articles-carrousel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 13px;
+    padding-left: 19px;
+}

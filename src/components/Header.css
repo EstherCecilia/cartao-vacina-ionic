@@ -1,0 +1,13 @@
+.header-menu {
+    background: rgb(145,144,193);
+    background: linear-gradient(360deg, rgb(144, 166, 163) 0%, rgb(129, 194, 190) 36%, rgb(36, 207, 141) 100%);
+    height: 10.5vh;
+    width: 100%;
+}
+
+.header-logo {
+    width: 44px;
+    height: 60px;
+    margin-left: 19px;
+    margin-top: 10px;
+}
