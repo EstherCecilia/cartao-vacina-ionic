@@ -1,0 +1,22 @@
+.menu-div {
+    background-color: white !important;
+    height: 100%;
+}
+
+.menu-items-section {
+    padding-top: 30px;
+}
+
+.menu-items-section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.linguini {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
