@@ -1,7 +1,5 @@
 import {
-  IonCol,
   IonContent,
-  IonGrid,
   IonPage,
   IonRow,
   IonText,
@@ -57,7 +55,7 @@ const Menu: React.FC = () => {
                   />
                 </div>
 
-                <div>
+                <div className="disbaled">
                   <MenuItem
                     srcImg="src/assets/menu/medicines.svg"
                     text="Medicamentos"

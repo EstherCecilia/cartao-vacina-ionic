@@ -20,3 +20,13 @@
     justify-content: space-between;
     gap: 30px;
 }
+
+.disbaled{
+    opacity: 75%;
+    cursor: not-allowed;
+}
+
+.text-menu{
+    position: absolute;
+    right: 20px;
+}

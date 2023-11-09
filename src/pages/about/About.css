@@ -7,3 +7,10 @@
     background-color: #0074c4;
   }
   
+  .home-button {
+    color: black !important;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    margin: 2px 70px;
+    border: 1px solid #202120;
+  }
