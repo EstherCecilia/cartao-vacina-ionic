@@ -1,12 +1,12 @@
 import { Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
-import Home from "./pages/home/Home";
+import About from "./pages/about/about";
 import Initial from "./pages/initial/Initial";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Menu from "./pages/menu/Menu";
-import './App.css'
+import "./App.css";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -26,6 +26,8 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
+import Vaccines from "./pages/vaccines/vaccines";
+import VaccineCard from "./pages/vaccine-card/vaccine";
 
 setupIonicReact();
 
@@ -34,7 +36,6 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/home">
-          {/* <Home /> */}
           <Menu />
         </Route>
 
@@ -44,6 +45,18 @@ const App: React.FC = () => (
 
         <Route exact path="/register">
           <Register />
+        </Route>
+
+        <Route exact path="/about">
+          <About />
+        </Route>
+
+        <Route exact path="/vaccines">
+          <Vaccines />
+        </Route>
+
+        <Route exact path="/vaccine-card">
+          <VaccineCard />
         </Route>
 
         <Route exact path="/">
